@@ -14,6 +14,8 @@ public class ModItemGroups {
     public static final ItemGroup CUM_REFINER = Registry.register(Registries.ITEM_GROUP, Identifier.of(Cumrefiner.MOD_ID, "cum_refiner_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.CUM_REFINER_BENCH)).displayName(Text.translatable("itemgroup.cumrefiner.cum_refiner_items")).entries((displayContext, entries) -> {
                 entries.add(ModBlocks.CUM_REFINER_BENCH);
+                entries.add(ModItems.JIZZKO_FUEL);
+                entries.add(ModItems.CUM_BOTTLE);
             }).build());
 
     public static void registerItemGroups() {

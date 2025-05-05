@@ -6,6 +6,7 @@
     "south": "cumrefiner:block/cum_refinery_side",
     "west": "cumrefiner:block/cum_refinery_side",
     "up": "cumrefiner:block/cum_refinery_top",
-    "down": "cumrefiner:block/cum_refinery_side"
+    "down": "cumrefiner:block/cum_refinery_side",
+    "particle": "minecraft:block/netherite_block"
   }
 }

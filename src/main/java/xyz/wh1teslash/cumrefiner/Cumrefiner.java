@@ -1,6 +1,7 @@
 package xyz.wh1teslash.cumrefiner;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import xyz.wh1teslash.cumrefiner.block.ModBlocks;
