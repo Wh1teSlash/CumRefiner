@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "cumrefiner",
+  "version": "${version}",
+  "name": "CumRefiner",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cumrefiner/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "xyz.wh1teslash.cumrefiner.client.CumrefinerDataGenerator"
+    ],
+    "client": [
+      "xyz.wh1teslash.cumrefiner.client.CumrefinerClient"
+    ],
+    "main": [
+      "xyz.wh1teslash.cumrefiner.Cumrefiner"
+    ]
+  },
+  "mixins": [
+    "cumrefiner.mixins.json",
+    {
+      "config": "cumrefiner.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

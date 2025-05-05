@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cumrefiner:block/cum_refiner_bench"
+    }
+  }
+}

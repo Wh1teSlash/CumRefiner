@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "cumrefiner:block/cum_refinery_front",
+    "east": "cumrefiner:block/cum_refinery_side",
+    "south": "cumrefiner:block/cum_refinery_side",
+    "west": "cumrefiner:block/cum_refinery_side",
+    "up": "cumrefiner:block/cum_refinery_top",
+    "down": "cumrefiner:block/cum_refinery_side"
+  }
+}
